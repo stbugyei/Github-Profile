@@ -1,1 +1,1 @@
-[Demo]:(https://stbugyei.github.io/Github-Profile/)
+[Demo](https://stbugyei.github.io/Github-Profile/)
