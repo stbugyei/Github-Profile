@@ -107,14 +107,13 @@
 	padding: 4px;
 	margin: 0px 10px 5px 0px;
 	border: 2px solid;
-	border-radius: 20px;
-	box-shadow: -4px 8px 15px -15px #440;
+	border-radius: 5px;
 	transition: all 0.3s ease; 
 }
 
 .section-repos__details:hover {
-	border-radius: 5px;
-	box-shadow: none;
+	transform: translateX(5px);
+	box-shadow: -4px 8px 15px -10px #444;
 }
 
 /*====== Search field props ======*/

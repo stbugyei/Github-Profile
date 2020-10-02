@@ -14,8 +14,8 @@ const ShowUsers = (users) => {
     }
     
 
-    //========= limiting the number to 20 repos ========= 
-    const limitedSearchResult = users[1].slice(0, 20)
+    //========= limiting the number to 15 repos =========   
+    const limitedSearchResult = users[1].slice(0, 15)
 
 
     //========= Displaying the reducedSearchResult =========  
