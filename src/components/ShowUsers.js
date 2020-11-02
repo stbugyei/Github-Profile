@@ -20,7 +20,7 @@ const ShowUsers = (users) => {
 
     //========= Displaying the reducedSearchResult =========  
     const DisplayUsers = limitedSearchResult.map(usersrepo => (
-        <p className="section-repos__details animate"  style={{color:generateHexaColor()}} key={usersrepo.name}>
+        <p className="section-repos__details animate"  style={{color:generateHexaColor()}} key={usersrepo.id}>
             <a href={usersrepo.homepage} target="_blank" rel="noopener noreferrer">{usersrepo.name}</a>
         </p>
     ))
